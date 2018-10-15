@@ -7,7 +7,7 @@
         <nav>
             <ul>
                 <router-link to="/" tag='li'>Menu</router-link>
-                <router-link to="" tag='li'>About</router-link>
+                <router-link to="/about" tag='li'>About</router-link>
                 <li><button href="#">Order Online</button></li>
             </ul>
         </nav>

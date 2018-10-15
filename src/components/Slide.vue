@@ -400,12 +400,12 @@
 
         }
 
-        /*.carousel {
-            min-width: 400px;
-        }*/
+        .carousel {
+            min-width: 355px;
+        }
 
         .carousel-view {
-            min-width: 400px;
+            min-width: 355px;
         }
 
         .wrapper {
