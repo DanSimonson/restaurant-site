@@ -1,9 +1,10 @@
 <template>
     <div>
-        <Navbar></Navbar>
+
         <main class="wrapper">
+            <Navbar></Navbar>
             <section class="section parallax bg1">
-                <h1>Kusina Ni Nanay</h1>
+                <h2>Kusina Ni Nanay</h2>
             </section>
             <section class="section static">
                 <p>Our Story: the idea for Nanay's kitchen restaurant began in Nanay's kitchen, a place to gather, eat
@@ -14,9 +15,11 @@
                     spirit of Kusina Ni Nanay</p>
             </section>
             <section class="section parallax bg2">
-                <h1>Kain Tayo</h1>
+                <h2>Kain Tayo</h2>
             </section>
+            <Footer></Footer>
         </main>
+
     </div>
 </template>
 <script>
@@ -44,6 +47,9 @@
         overflow-y: auto;
         /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
         perspective: 2px;
+        background: url('../assets/wood.jpg') no-repeat;
+        background-size: 100%;
+        background-size: cover;
     }
 
     .section {
@@ -92,9 +98,25 @@
     /* Sets the actual background images to adorable kitties. This part is crucial. */
     .bg1::after {
         background-image: url('https://res.cloudinary.com/dmglopmul/image/upload/v1539650858/projectPhotos/restaurant/kusina.jpg');
+        background-repeat: no-repeat;
     }
 
     .bg2::after {
-        background-image: url('https://res.cloudinary.com/dmglopmul/image/upload/v1539650842/projectPhotos/restaurant/childrenKusina.jpg');
+        background-image: url('https://res.cloudinary.com/dmglopmul/image/upload/v1539659222/childrenKusina1.jpg');
+        background-repeat: no-repeat;
+    }
+
+    @media screen and (max-width: 425px) {
+        .static {
+            font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 320px) {
+        .static {
+            font-size: 1.8em;
+        }
+
     }
 </style>

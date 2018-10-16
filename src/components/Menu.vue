@@ -28,6 +28,7 @@
     <div class='flexMe'>
       <component :is="selectedComponent"></component>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -189,7 +190,7 @@
     text-align: center;
     height: 120px;
     align-self: end;
-    border: 1px solid dark brown;
+    /*border: 1px solid dark brown;*/
     padding-top: 60px;
     margin-top: 50px;
     margin-bottom: 0;
