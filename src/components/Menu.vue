@@ -95,7 +95,7 @@
   }
 
   nav a:hover {
-    background: indianred;
+    background: #D32F2F;
     cursor: pointer;
   }
 
@@ -138,9 +138,9 @@
     padding: 30px;
   }*/
 
-  strong {
+  /*strong {
     font-weight: 900;
-  }
+  }*/
 
   .section-one {
     display: grid;

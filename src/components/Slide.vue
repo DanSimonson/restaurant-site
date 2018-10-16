@@ -167,7 +167,7 @@
         border-right-color: goldenrod;
         transform: rotate(-3deg);
         z-index: 1;
-        left: 4%;
+        left: 3%;
     }
 
     .carousel-view .button-next {
