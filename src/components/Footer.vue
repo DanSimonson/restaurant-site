@@ -57,7 +57,6 @@
         background-size: cover;
     }
 
-    .container {}
 
     h1 {
         text-align: center;
